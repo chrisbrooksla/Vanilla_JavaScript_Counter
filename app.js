@@ -30,6 +30,8 @@ btns.forEach(function (btn) {
             else{
                   count = 0;
             }
+
+            // change the color of the counter number
             if(count > 0){
                   value.style.color = "green";
             }
